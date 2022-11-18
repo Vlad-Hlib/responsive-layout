@@ -1,14 +1,6 @@
 * {
   box-sizing: border-box;
 }
-@import 'header.scss';
-@import 'headline.scss';
-@import 'about.scss';
-@import 'customers.scss';
-@import 'features.scss';
-@import 'footer.scss';
-@import 'inbox.scss';
-
 html {
   font-family: 'Work Sans', sans-serif;
   background-color: #F2F2F2;;
@@ -19,6 +11,15 @@ html {
   margin: auto;
   background-color: #f3c6bd;
 }
+
+@import 'header.scss';
+@import 'headline.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'footer.scss';
+@import 'inbox.scss';
+@import 'communication.scss';
 
 
 

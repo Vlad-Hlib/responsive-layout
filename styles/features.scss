@@ -4,12 +4,12 @@
   background-color: #fff;
   padding-top: 1px;
   display: flex;
-  &__img-ouch{
+  &__img-ouch {
     position: absolute;
     height: 166px;
     margin-top: 258px;
   }
-  &__img-screen{
+  &__img-screen {
     position: absolute;
     margin-left: 698px;
   }
@@ -65,11 +65,11 @@
 .features__item {
   display: flex;
   align-items: center;
-  
+
   &-line {
     width: 457px;
     border-bottom: 1px solid #2b292d26;
-    &_last{
+    &_last {
       margin-bottom: 110px;
     }
   }
@@ -81,9 +81,8 @@
     color: #2b292d;
     margin-top: 20px;
     margin-left: 15px;
-    margin-bottom: 22px; 
-    &_last{
-      margin-bottom: 0;
+    margin-bottom: 22px;
+    &_last {
     }
   }
 }
