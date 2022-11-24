@@ -1,4 +1,51 @@
 .footer {
   width: 1400px;
   height: 389px;
+  margin: auto;
+  background-color: #fff;
+  &__description {
+    width: 360px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+  &__logo-mob {
+    margin-left: 130px;
+  }
+  &-first-block {
+    display: flex;
+  }
+  &__description {
+    margin: 26px 0 25px 129px;
+  }
+  &__product {
+    margin-left: 126px;
+    &-title {
+      width: 265px;
+    }
+    &-second {
+      margin: 0 0 0 29px;
+    }
+    &-items {
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0;
+      margin-top: 9px;
+      color: rgba(43, 41, 45, 0.6);
+      
+    }
+  }
+  &__product-title {
+    width: 212px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 60px;
+  }
+}
+.logo {
+  margin: 4px 0 0 130px;
+}
+.additional-navigation {
+  display: flex;
 }
