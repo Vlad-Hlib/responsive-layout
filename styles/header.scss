@@ -1,65 +1,68 @@
+.header-block {
+  height: 710px;
+  background-color: #f3c6bd;
+}
 .header {
   display: flex;
-  margin: auto;
-  width: 1140px;
-  &__button {
-    background-color: #3040c4;
-    height: 48px;
-    width: 160px;
-    border: none;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 13px;
-    color: #fff;
-    margin-top: 39px;
+  &__arrow {
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
+    height: 5px;
+    width: 8px;
   }
 }
-
 .logo {
   display: flex;
+  margin: 41px 0px 0px 130px;
   &-img {
     width: 60px;
     height: 60px;
-    margin-top: 41px;
-    margin-right: 15px;
+    margin-top: 2px;
   }
   &__text {
-    display: flex;
-    flex-direction: column;
-    margin-top: 45px;
+    margin: 6px 2px 5px 15px;
   }
   &__title {
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
   }
-  &__descriprion {
+  &__description {
     font-size: 18px;
     line-height: 25px;
-    opacity: 0.6;
   }
 }
-
-.navigation {
-  margin-left: auto;
-  margin-top: 46px;
-  &-list {
+.nav {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  margin: 46px 0 0 335px;
+  &__items {
+    display: flex;
+    list-style: none;
+  }
+  &__item {
     margin-right: 50px;
     font-size: 18px;
-    text-decoration: none;
     line-height: 25px;
-    color: #2b292d;
-    &_selected {
-      font-weight: 700;
-    }
-    &-last {
+    &:nth-last-child(1) {
       margin-right: 11px;
     }
-    &-arrow {
-      width: 5px;
-      width: 8px;
+    &-active{
+      font-weight: 700;
     }
   }
+}
+.button-blue {
+  background-color: #3040c4;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  border: none;
+  height: 48px;
+  width: 160px;
+  margin: 39px 0 0 56px;
 }

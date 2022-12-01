@@ -1,27 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   font-family: 'Work Sans', sans-serif;
   background-color: #f2f2f2;
   color: #2b292d;
 }
-
 .page {
   width: 1400px;
   margin: auto;
-  background-color: #f3c6bd;
 }
-
 @import 'header.scss';
-@import 'headline.scss';
-@import 'about.scss';
-@import 'customers.scss';
-@import 'features.scss';
-@import 'inbox.scss';
-@import 'communication.scss';
-@import 'audience.scss';
-@import 'feedback.scss';
-@import 'hiring.scss';
-@import 'order.scss';
-@import 'footer.scss';
