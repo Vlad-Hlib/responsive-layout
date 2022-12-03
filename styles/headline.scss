@@ -1,0 +1,65 @@
+.headline-block {
+  width: 1400px;
+  margin: auto;
+  background-color: #f3c6bd;
+  display: flex;
+  position: relative;
+}
+.headline {
+  z-index: 2;
+  height: 456px;
+  width: 1140px;
+  margin: auto;
+  margin-bottom: 153px;
+  &__title {
+    height: 165px;
+    width: 754px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    margin: 76px 0 0 0;
+  }
+  &__description {
+    height: 102px;
+    width: 456px;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 34px 0 58px 0;
+  }
+  &__image {
+    position: absolute;
+    right: 25px;
+    z-index: 1;
+    margin: 84px 0 0 0;
+  }
+  &__button-blue {
+    height: 48px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    background-color: #3040c4;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  &__button-white {
+    height: 48px;
+    width: 158px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    color: #3040c4;
+   margin: 0;
+  }
+}
