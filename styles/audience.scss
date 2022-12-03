@@ -1,7 +1,7 @@
 .audience-block {
   width: 1400px;
   margin: auto;
-  background-color: #00a1c612;
+  background-color: #00A1C612;
 }
 .audience {
   width: 1140px;
@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 983px;
   &__litle-title {
     font-weight: 700;
     font-size: 22px;
@@ -31,9 +32,6 @@
     text-align: center;
     margin: 30px 0 0 0;
   }
-  &__button {
-    margin: 34px 0 0 0;
-  }
 }
 .categories {
   display: flex;
@@ -52,11 +50,39 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   background-color: #fff;
+  &:hover{
+    background-color: #3141C5;
+    color: #fff;
+  }
   &-title {
-   width: 212px;
+    width: 212px;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
     text-align: center;
+    margin: 22px 25px 33px 25px;
+  }
+  &-img {
+    &-first {
+      height: 195px;
+      width: 138px;
+      margin: 22px 62px 0 62px;
+    }
+    &-secod {
+      height: 195px;
+      width: 142px;
+      margin: 22px 60px 0 60px;
+    }
+
+    &-thirth {
+      height: 195px;
+      width: 160px;
+      margin: 22px 51px 0 51px;
+    }
+    &-qwart {
+      height: 195px;
+      width: 119px;
+      margin: 22px 72px 0 71px;
+    }
   }
 }

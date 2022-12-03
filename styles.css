@@ -126,8 +126,6 @@ html {
 .headline__button-blue {
   height: 48px;
   width: 160px;
-  left: 0px;
-  top: 0px;
   border-radius: 2px;
   border: none;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -137,8 +135,10 @@ html {
   line-height: 13px;
   color: #ffffff;
   margin-right: 10px;
+  margin-top: 34px;
 }
 .headline__button-white {
+  background-color: #fff;
   height: 48px;
   width: 158px;
   border-radius: 2px;
@@ -148,7 +148,7 @@ html {
   font-size: 18px;
   line-height: 13px;
   color: #3040c4;
-  margin: 0;
+  margin-top: 34px;
 }
 
 .audience-block {
@@ -163,6 +163,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 983px;
 }
 .audience__litle-title {
   font-weight: 700;
@@ -186,9 +187,6 @@ html {
   text-align: center;
   margin: 30px 0 0 0;
 }
-.audience__button {
-  margin: 34px 0 0 0;
-}
 
 .categories {
   display: flex;
@@ -208,12 +206,37 @@ html {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   background-color: #fff;
 }
+.user-card:hover {
+  background-color: #3141C5;
+  color: #fff;
+}
 .user-card-title {
   width: 212px;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   text-align: center;
+  margin: 22px 25px 33px 25px;
+}
+.user-card-img-first {
+  height: 195px;
+  width: 138px;
+  margin: 22px 62px 0 62px;
+}
+.user-card-img-secod {
+  height: 195px;
+  width: 142px;
+  margin: 22px 60px 0 60px;
+}
+.user-card-img-thirth {
+  height: 195px;
+  width: 160px;
+  margin: 22px 51px 0 51px;
+}
+.user-card-img-qwart {
+  height: 195px;
+  width: 119px;
+  margin: 22px 72px 0 71px;
 }
 
 .order {

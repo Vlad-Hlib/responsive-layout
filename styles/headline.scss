@@ -36,8 +36,6 @@
   &__button-blue {
     height: 48px;
     width: 160px;
-    left: 0px;
-    top: 0px;
     border-radius: 2px;
     border: none;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
@@ -48,8 +46,10 @@
     line-height: 13px;
     color: #ffffff;
     margin-right: 10px;
+    margin-top: 34px;
   }
   &__button-white {
+    background-color: #fff;
     height: 48px;
     width: 158px;
     border-radius: 2px;
@@ -60,6 +60,6 @@
     font-size: 18px;
     line-height: 13px;
     color: #3040c4;
-   margin: 0;
+    margin-top: 34px;
   }
 }
