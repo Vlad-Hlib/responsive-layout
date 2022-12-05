@@ -4,8 +4,15 @@
   background-color: #f4f5f7;
   height: 441px;
   display: flex;
+  &__button {
+    display: flex;
+    align-items: flex-end;
+  }
+
   &-img {
-    margin: 73px 0 72px 224px;
+    height: 296px;
+    width: 269px;
+    margin: 73px 0 0 224px;
   }
   &-title {
     width: 555px;
@@ -13,25 +20,26 @@
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.25px;
-    margin: 106px 0 0 122px;
+    margin: 106px 229px 0 122px;
   }
   &-description {
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
     width: 555px;
-    margin: 12px 0 0 121px;
+    margin: 12px 230px 0 121px;
   }
   &-input {
     width: 385px;
     height: 48px;
     border-radius: 2px;
     border: 1px solid #2b292d33;
-    margin: 26px 0 0 123px;
+    margin: 26px 10px 0 123px;
     font-size: 18px;
     color: #2b292d;
     line-height: 13px;
-    padding: 17px 0 18px 15px;
+    padding: 17px 15px 18px 15px;
+    text-align: center;
   }
   &-button {
     width: 160px;
@@ -45,12 +53,13 @@
     font-size: 18px;
     line-height: 13px;
     color: #ffffff;
+    padding: 17px 28px 18px;
   }
   &__terms {
     font-size: 14px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
-    margin: 10px 0 0 122px;
+    margin: 10px 289px 0 122px;
     &_underlined {
       color: #3142c6;
       border-bottom: 1px solid #3142c6;
