@@ -36,18 +36,21 @@ html {
 }
 
 .navigation {
+  width: 273px;
+}
+.navigation-block {
+  display: flex;
   margin-left: auto;
   margin-top: 7px;
-  margin-right: 56px;
 }
 .navigation__item {
   font-size: 18px;
   line-height: 25px;
   text-decoration: none;
   color: #2b292d;
-  margin-right: 50px;
+  margin-right: 43px;
 }
-.navigation__item:nth-last-child(2) {
+.navigation__item:nth-last-child(1) {
   margin-right: 0;
 }
 .navigation__item_selected {
@@ -58,12 +61,14 @@ html {
   height: 5px;
   width: 8px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
+  margin-top: 12px;
+  margin-right: 56px;
   margin-left: 11px;
-  margin-top: 19px;
 }
 
 .logo {
   display: flex;
+  margin-left: 12px;
 }
 .logo__image {
   width: 60px;
