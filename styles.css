@@ -103,7 +103,7 @@ html {
 .headline {
   position: relative;
   width: 1140px;
-  height: 582px;
+  height: 533px;
   margin: 76px 0 0 126px;
 }
 .headline__block-image {
@@ -121,7 +121,7 @@ html {
   letter-spacing: -0.5px;
   height: 165px;
   width: 754px;
-  margin: 0;
+  margin: 0 0 0 4px;
   position: relative;
   z-index: 2;
 }
@@ -133,6 +133,7 @@ html {
   margin: 34px 0 0 0;
 }
 .headline__buttons {
+  display: flex;
   margin: 58px 0 0 0;
 }
 .headline__button-blue {
@@ -146,7 +147,7 @@ html {
   font-size: 18px;
   line-height: 13px;
   color: #ffffff;
-  padding: 0;
+  padding: 17px 28px 18px 28px;
 }
 .headline__button-white {
   height: 48px;
@@ -158,7 +159,7 @@ html {
   font-size: 18px;
   line-height: 13px;
   color: #3040c4;
-  padding: 0;
+  padding: 17px 29px 18px 28px;
   margin-left: 10px;
   background-color: #fff;
 }
