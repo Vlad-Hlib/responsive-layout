@@ -280,7 +280,7 @@ html {
 .order-img {
   height: 296px;
   width: 269px;
-  margin: 73px 0 0 224px;
+  margin: 73px 0 72px 224px;
 }
 .order-title {
   width: 555px;
@@ -339,6 +339,9 @@ html {
   margin: auto;
   background-color: #fff;
 }
+.footer-logo {
+  display: flex;
+}
 .footer-linear {
   width: 1400px;
   border-bottom: 1px solid rgba(43, 41, 45, 0.1019607843);
@@ -373,6 +376,9 @@ html {
 .footer__logo {
   margin-top: 43px;
   margin-left: 130px;
+}
+.footer__logo-text {
+  margin: 5px 2px 4px 15px;
 }
 .footer__logo-title {
   font-weight: 700;

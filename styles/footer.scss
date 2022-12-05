@@ -3,6 +3,9 @@
   height: 389px;
   margin: auto;
   background-color: #fff;
+  &-logo{
+    display: flex;
+  }
   &-linear {
     width: 1400px;
     border-bottom: 1px solid #2b292d1a;
@@ -37,7 +40,8 @@
   &__logo {
     margin-top: 43px;
     margin-left: 130px;
-    &__text {
+    &-text {
+      margin: 5px 2px 4px 15px;
     }
     &-title {
       font-weight: 700;
