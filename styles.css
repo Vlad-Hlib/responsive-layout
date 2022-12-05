@@ -103,7 +103,7 @@ html {
 .headline {
   position: relative;
   width: 1140px;
-  height: 456px;
+  height: 582px;
   margin: 76px 0 0 126px;
 }
 .headline__block-image {
@@ -113,7 +113,6 @@ html {
   position: absolute;
   right: -109px;
   z-index: 1;
-  margin-top: 8px;
 }
 .headline__title {
   font-weight: 700;
@@ -131,10 +130,10 @@ html {
   width: 456px;
   font-size: 24px;
   line-height: 34px;
-  margin: 34px 0 0 4px;
+  margin: 34px 0 0 0;
 }
 .headline__buttons {
-  margin: 58px 0 0 4px;
+  margin: 58px 0 0 0;
 }
 .headline__button-blue {
   background-color: #3040c4;
@@ -161,6 +160,7 @@ html {
   color: #3040c4;
   padding: 0;
   margin-left: 10px;
+  background-color: #fff;
 }
 
 .audience {

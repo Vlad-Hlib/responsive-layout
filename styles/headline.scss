@@ -1,7 +1,7 @@
 .headline {
   position: relative;
   width: 1140px;
-  height: 456px;
+  height: 582px;
   margin: 76px 0 0 126px;
    &__block-image{
     position: relative;
@@ -10,7 +10,6 @@
    position: absolute;
    right: -109px;
    z-index: 1;
-   margin-top: 8px;
   }
 
   &__title {
@@ -29,10 +28,10 @@
     width: 456px;
     font-size: 24px;
     line-height: 34px;
-    margin: 34px 0 0 4px;
+    margin: 34px 0 0 0;
   }
   &__buttons{
-   margin: 58px 0 0 4px;
+   margin: 58px 0 0 0;
   }
   &__button-blue {
     background-color: #3040c4;
@@ -61,5 +60,6 @@
     color: #3040c4;
     padding: 0;
     margin-left: 10px;
+    background-color: #fff;
   }
 }
