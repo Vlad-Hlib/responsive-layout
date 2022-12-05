@@ -22,7 +22,6 @@ header {
 
 .menu {
   display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -41,6 +40,7 @@ header {
   align-items: center;
   list-style: none;
   position: absolute;
+  margin-top: 5px;
   right: 214px;
 }
 .nav__item {
@@ -67,6 +67,9 @@ header {
   height: 62px;
   margin: auto;
 }
+.header__text {
+  margin-top: 4px;
+}
 .header__line {
   height: 39px;
   background-color: #f3c6bd;
@@ -77,13 +80,14 @@ header {
   line-height: 25px;
   font-weight: 700;
   color: #000;
+  margin-left: 15px;
 }
 .header__description {
   width: 222px;
   font-size: 18px;
   line-height: 25px;
   color: rgba(43, 41, 45, 0.6);
-  opacity: 0.6;
+  margin-left: 15px;
 }
 .header__button-blue {
   height: 48px;
@@ -99,6 +103,8 @@ header {
   padding: 17px 28px 18px 28px;
   position: absolute;
   right: 0;
+  top: 0;
+  margin-top: 2px;
 }
 
 .headline {

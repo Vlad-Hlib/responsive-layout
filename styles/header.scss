@@ -22,6 +22,7 @@ header {
   align-items: center;
   list-style: none;
   position: absolute;
+  margin-top: 5px;
   right: 214px;
   &__item {
     margin-right: 50px;
@@ -46,6 +47,9 @@ header {
   width: 1140px;
   height: 62px;
   margin: auto;
+  &__text{
+    margin-top: 4px;
+  }
   &__line {
     height: 39px;
     background-color: #f3c6bd;
@@ -56,13 +60,14 @@ header {
     line-height: 25px;
     font-weight: 700;
     color: #000;
+    margin-left: 15px;
   }
   &__description {
     width: 222px;
     font-size: 18px;
     line-height: 25px;
     color: #2b292d99;
-    opacity: 0.6;
+    margin-left: 15px;
   }
   &__button-blue {
     height: 48px;
@@ -79,5 +84,7 @@ header {
     padding: 17px 28px 18px 28px;
     position: absolute;
     right: 0;
+    top: 0;
+    margin-top: 2px;
   }
 }
