@@ -1,11 +1,14 @@
 .headline {
   position: relative;
-  width: 1249px;
+  width: 1140px;
   height: 456px;
   margin: 76px 0 0 126px;
+   &__block-image{
+    position: relative;
+  }
   &__image{
    position: absolute;
-   right: 0;
+   right: -109px;
    z-index: 1;
    margin-top: 8px;
   }

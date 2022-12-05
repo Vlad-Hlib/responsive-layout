@@ -102,13 +102,16 @@ html {
 
 .headline {
   position: relative;
-  width: 1249px;
+  width: 1140px;
   height: 456px;
   margin: 76px 0 0 126px;
 }
+.headline__block-image {
+  position: relative;
+}
 .headline__image {
   position: absolute;
-  right: 0;
+  right: -109px;
   z-index: 1;
   margin-top: 8px;
 }
@@ -158,6 +161,109 @@ html {
   color: #3040c4;
   padding: 0;
   margin-left: 10px;
+}
+
+.audience {
+  width: 1400px;
+  height: 983px;
+  background-color: rgba(0, 161, 198, 0.0705882353);
+  margin: auto;
+}
+.audience__container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.audience__little-title {
+  width: 168px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  margin: 108px 616px 0;
+}
+.audience__title {
+  width: 555px;
+  margin: 24px 423px 0 422px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+.audience__description {
+  width: 555px;
+  margin: 30px 423px 0 422px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+.audience__buttons {
+  margin: 34px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.audience__button-blue {
+  width: 160px;
+  height: 48px;
+  background-color: #3040c4;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  border: 0;
+  border-radius: 2px;
+  padding: 0;
+}
+.audience__button-white {
+  width: 158px;
+  height: 48px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.categories {
+  display: flex;
+  margin: auto;
+  margin-top: 111px;
+  margin-bottom: 110px;
+  width: 1139px;
+  justify-content: space-between;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 262px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.user-card-img {
+  margin-top: 22px;
+}
+.user-card-title {
+  width: 212px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+}
+.user-card:hover {
+  cursor: pointer;
+  background-color: #3141c5;
+}
+.user-card:hover .user-card-title {
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
