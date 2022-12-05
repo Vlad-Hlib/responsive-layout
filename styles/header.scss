@@ -16,12 +16,13 @@
     font-size: 18px;
     line-height: 13px;
     color: #ffffff;
+    padding: 17px 28px 18px 28px;
   }
 }
 .navigation {
   margin-left: auto;
   margin-top: 7px;
-  margin-right: 75px;
+  margin-right: 56px;
   &__item {
     font-size: 18px;
     line-height: 25px;
@@ -41,6 +42,7 @@
     width: 8px;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
     margin-left: 11px;
+    margin-top: 19px;
   }
 }
 .logo {
@@ -49,6 +51,7 @@
     width: 60px;
     height: 60px;
     margin-right: 15px;
+    margin-top: 2px;
   }
   &__name {
     font-weight: 700;
@@ -66,6 +69,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 6px;
   }
 }
 .top-section {
