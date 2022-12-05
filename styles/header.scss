@@ -1,77 +1,83 @@
-.header {
-  width: 1140px;
+header {
+  height: 710px;
+  width: 1400px;
   margin: auto;
-  
+  background-color: #f3c6bd;
+}
+.menu {
   display: flex;
-  position: relative;
-  
-  margin-bottom: 76px;
-  &-headline{
-    background-color: #f3c6bd;
-    height: 710px;
-  }
-  &-block {
-    width: 1400px;
-    background-color: #f3c6bd;
-  }
-  &__nav-items {
-    list-style: none;
-    display: flex;
-    margin: 46px 0 0 335px;
-    align-items: center;
-  }
-  &__nav-item {
-    margin-right: 50px;
-    font-size: 18px;
-    line-height: 25px;
-    &:nth-last-child(2) {
-      margin-right: 11px;
-    }
-    &_active{
-      font-weight: 700;
-    }
-  }
-  &__arrow {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
-    width: 8px;
-    height: 5px;
-    margin-right: 56px;
-  }
 }
 .logo {
   display: flex;
-  &-img {
+  width: 299px;
+  height: 60px;
+  align-items: center;
+  &__img {
     width: 60px;
     height: 60px;
-    margin-top: 41px;
+  }
+}
+.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  position: absolute;
+  right: 214px;
+  &__item {
+    margin-right: 50px;
+    &:nth-last-child(2) {
+      margin-right: 11px;
+    }
+    &-arrow {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
+      width: 8px;
+      height: 5px;
+    }
+    &_active {
+      color: #000;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+}
+.header {
+  position: relative;
+  width: 1140px;
+  height: 62px;
+  margin: auto;
+  &__line {
+    height: 39px;
+    background-color: #f3c6bd;
   }
   &__title {
-    font-weight: 700;
+    width: 222px;
     font-size: 20px;
     line-height: 25px;
+    font-weight: 700;
     color: #000;
-    margin: 45px 0 0 15px;
   }
   &__description {
     width: 222px;
     font-size: 18px;
     line-height: 25px;
+    color: #2b292d99;
     opacity: 0.6;
-    margin: 0 0 0 15px;
   }
-}
-.button-blue {
-  background-color: #3040c4;
-  height: 48px;
-  width: 160px;
-  border-radius: 2px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  border: none;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 13px;
-  color: #fff;
-  margin: 39px 0 0 0;
-  
+  &__button-blue {
+    height: 48px;
+    width: 160px;
+    border-radius: 2px;
+    background-color: #3040c4;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    color: #fff;
+    padding: 17px 28px 18px 28px;
+    position: absolute;
+    right: 0;
+  }
 }
