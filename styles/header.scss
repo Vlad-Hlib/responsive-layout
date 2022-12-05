@@ -1,10 +1,15 @@
 .header {
   width: 1140px;
   margin: auto;
-  height: 62px;
+  
   display: flex;
   position: relative;
-  height: 101px;
+  
+  margin-bottom: 76px;
+  &-headline{
+    background-color: #f3c6bd;
+    height: 710px;
+  }
   &-block {
     width: 1400px;
     background-color: #f3c6bd;

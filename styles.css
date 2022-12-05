@@ -16,10 +16,13 @@ html {
 .header {
   width: 1140px;
   margin: auto;
-  height: 62px;
   display: flex;
   position: relative;
-  height: 101px;
+  margin-bottom: 76px;
+}
+.header-headline {
+  background-color: #f3c6bd;
+  height: 710px;
 }
 .header-block {
   width: 1400px;
@@ -95,33 +98,40 @@ html {
 }
 
 .headline {
-  z-index: 2;
+  background-color: #f3c6bd;
+  position: relative;
+  width: 1400px;
   height: 456px;
-  width: 1140px;
   margin: auto;
-  margin-bottom: 153px;
+}
+.headline__block {
+  position: absolute;
+  z-index: 2;
 }
 .headline__title {
+  z-index: 1;
   height: 165px;
   width: 754px;
   font-weight: 700;
   font-size: 80px;
   line-height: 78px;
   letter-spacing: -0.5px;
-  margin: 76px 0 0 0;
+  margin: 0 0 0 0;
+  margin: 0 0 0 126px;
 }
 .headline__description {
   height: 102px;
   width: 456px;
   font-size: 24px;
   line-height: 34px;
-  margin: 34px 0 58px 0;
+  margin: 34px 0 0 130px;
 }
 .headline__image {
   position: absolute;
   right: 25px;
+  top: 8px;
   z-index: 1;
-  margin: 84px 0 0 0;
+  margin: 0 0 0 0;
 }
 .headline__button-blue {
   height: 48px;
@@ -134,8 +144,7 @@ html {
   font-size: 18px;
   line-height: 13px;
   color: #ffffff;
-  margin-right: 10px;
-  margin-top: 34px;
+  margin: 58px 0 0 130px;
 }
 .headline__button-white {
   background-color: #fff;
@@ -148,7 +157,7 @@ html {
   font-size: 18px;
   line-height: 13px;
   color: #3040c4;
-  margin-top: 34px;
+  margin-left: 5px;
 }
 
 .audience-block {
