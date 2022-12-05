@@ -33,6 +33,7 @@ html {
   line-height: 13px;
   color: #ffffff;
   padding: 17px 28px 18px 28px;
+  margin-left: 75px;
 }
 
 .navigation {
@@ -68,13 +69,12 @@ html {
 
 .logo {
   display: flex;
-  margin-left: 12px;
+  margin-left: 15px;
 }
 .logo__image {
   width: 60px;
   height: 60px;
   margin-right: 15px;
-  margin-top: 2px;
 }
 .logo__name {
   font-weight: 700;
@@ -92,7 +92,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 6px;
 }
 
 .top-section {
