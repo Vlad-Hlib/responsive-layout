@@ -8,9 +8,19 @@ html {
   background-color: #f2f2f2;
   color: #2b292d;
 }
+body {
+  width: 100vw;
+}
 .page {
-  width: 1400px;
+  width: 100vw;
   margin: auto;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 620px) {
+  .page {
+    width: 1400px;
+    margin: auto;
+  }
 }
 @import 'header.scss';
 @import 'headline.scss';
