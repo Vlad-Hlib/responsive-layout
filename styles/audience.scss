@@ -147,7 +147,8 @@
     }
     &__buttons {
       margin: 34px 0 0 0;
-      display: block;
+      display: flex;
+      flex-direction: row;
       justify-content: center;
     }
     &__button-blue {
@@ -172,6 +173,7 @@
       line-height: 13px;
       border: none;
       border-radius: 2px;
+      margin: 0;
       margin-left: 10px;
       padding: 0;
     }
