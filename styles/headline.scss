@@ -5,13 +5,12 @@
   margin: 35px 0 36px 0;
   &__block-image {
     position: relative;
+    display: none;
   }
-  &__image {
+  &__image-mobile {
     width: 320px;
     height: 180px;
-    position: absolute;
-    top: 610px;
-    z-index: 1;
+    margin: 33px 0 0 0;
   }
 
   &__title {
@@ -71,6 +70,7 @@
     margin: 76px 0 0 126px;
     &__block-image {
       position: relative;
+      display: block;
     }
     &__image {
       position: absolute;
@@ -79,6 +79,9 @@
       z-index: 1;
       height: 448px;
       width: 796px;
+      &-mobile{
+        display: none;
+      }
     }
 
     &__title {

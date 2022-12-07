@@ -51,7 +51,7 @@
 }
 .top-section {
   background-color: #f3c6bd;
-  height: 954px;
+  height: 890px;
 }
 @media screen and (min-width: 620px) {
   .navigation {
@@ -131,6 +131,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin-top: 0;
     }
   }
   .top-section {

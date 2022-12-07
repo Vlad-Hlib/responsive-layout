@@ -81,7 +81,7 @@ body {
 
 .top-section {
   background-color: #f3c6bd;
-  height: 954px;
+  height: 890px;
 }
 
 @media screen and (min-width: 620px) {
@@ -160,6 +160,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 0;
   }
   .top-section {
     display: block;
@@ -176,13 +177,12 @@ body {
 }
 .headline__block-image {
   position: relative;
+  display: none;
 }
-.headline__image {
+.headline__image-mobile {
   width: 320px;
   height: 180px;
-  position: absolute;
-  top: 610px;
-  z-index: 1;
+  margin: 33px 0 0 0;
 }
 .headline__title {
   font-weight: 700;
@@ -242,6 +242,7 @@ body {
   }
   .headline__block-image {
     position: relative;
+    display: block;
   }
   .headline__image {
     position: absolute;
@@ -250,6 +251,9 @@ body {
     z-index: 1;
     height: 448px;
     width: 796px;
+  }
+  .headline__image-mobile {
+    display: none;
   }
   .headline__title {
     font-weight: 700;
