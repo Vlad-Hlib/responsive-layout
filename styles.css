@@ -195,10 +195,9 @@ body {
 }
 .headline__description {
   width: 290px;
-  height: 172px;
   font-size: 24px;
   line-height: 34px;
-  margin: 20px 15px 0 15px;
+  margin: 19px 15px 0 15px;
 }
 .headline__buttons {
   display: flex;
