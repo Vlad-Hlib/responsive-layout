@@ -11,7 +11,7 @@
   &-img {
     height: 200px;
     width: 200px;
-    margin: 50px 60px 0px 60px;
+    margin: 50px auto 60px;
   }
   &-title {
     width: 290px;
@@ -20,21 +20,22 @@
     line-height: 40px;
     letter-spacing: -0.25px;
     text-align: center;
-    margin: 40px 15px 0 15px;
+    margin: 40px auto 15px;
   }
   &-description {
     font-size: 22px;
     line-height: 32px;
     height: 167px;
     width: 290px;
-    margin: 18px 15px 0 15px;
+    margin: 18px auto 15px;
   }
   &-input {
+    display:  flex;
     width: 290px;
     height: 48px;
     border-radius: 2px;
     border: 1px solid #2b292d33;
-    margin: 40px 15px 0 15px;
+    margin: 40px auto 15px;
     font-size: 18px;
     color: #2b292d;
     line-height: 13px;
@@ -42,6 +43,7 @@
     text-align: center;
   }
   &-button {
+    display: flex;
     width: 290px;
     height: 48px;
     background-color: #3040c4;
@@ -54,14 +56,14 @@
     line-height: 13px;
     color: #ffffff;
     padding: 17px 92px 18px 94px;
-    margin: 12px 15px 0 15px;
+    margin: 12px auto 15px;
   }
   &__terms {
     font-size: 14px;
     width: 290px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
-    margin: 10px 15px 50px 15px;
+    margin: 10px auto 15px;
     &_underlined {
       color: #3142c6;
       border-bottom: 1px solid #3142c6;

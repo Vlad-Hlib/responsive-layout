@@ -180,9 +180,10 @@ body {
   display: none;
 }
 .headline__image-mobile {
+  display: flex;
   width: 320px;
   height: 180px;
-  margin: 33px 0 36px 0;
+  margin: 33px auto 0;
 }
 .headline__title {
   font-weight: 700;
@@ -191,13 +192,13 @@ body {
   letter-spacing: -0.3125px;
   height: 205px;
   width: 290px;
-  margin: 35px 15px 0 15px;
+  margin: 35px auto 15px;
 }
 .headline__description {
   width: 290px;
   font-size: 24px;
   line-height: 34px;
-  margin: 19px 15px 0 15px;
+  margin: 19px auto 15px;
 }
 .headline__buttons {
   display: flex;
@@ -533,7 +534,7 @@ body {
 .order-img {
   height: 200px;
   width: 200px;
-  margin: 50px 60px 0px 60px;
+  margin: 50px auto 60px;
 }
 .order-title {
   width: 290px;
@@ -542,21 +543,22 @@ body {
   line-height: 40px;
   letter-spacing: -0.25px;
   text-align: center;
-  margin: 40px 15px 0 15px;
+  margin: 40px auto 15px;
 }
 .order-description {
   font-size: 22px;
   line-height: 32px;
   height: 167px;
   width: 290px;
-  margin: 18px 15px 0 15px;
+  margin: 18px auto 15px;
 }
 .order-input {
+  display: flex;
   width: 290px;
   height: 48px;
   border-radius: 2px;
   border: 1px solid rgba(43, 41, 45, 0.2);
-  margin: 40px 15px 0 15px;
+  margin: 40px auto 15px;
   font-size: 18px;
   color: #2b292d;
   line-height: 13px;
@@ -564,6 +566,7 @@ body {
   text-align: center;
 }
 .order-button {
+  display: flex;
   width: 290px;
   height: 48px;
   background-color: #3040c4;
@@ -575,14 +578,14 @@ body {
   line-height: 13px;
   color: #ffffff;
   padding: 17px 92px 18px 94px;
-  margin: 12px 15px 0 15px;
+  margin: 12px auto 15px;
 }
 .order__terms {
   font-size: 14px;
   width: 290px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
-  margin: 10px 15px 50px 15px;
+  margin: 10px auto 15px;
 }
 .order__terms_underlined {
   color: #3142c6;
@@ -688,6 +691,7 @@ body {
 .footer__terms-social {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .footer__terms {
   display: flex;
@@ -751,7 +755,8 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  margin-top: 30px;
+  margin: 60px auto 0;
+  text-align: center;
 }
 .footer__product-second {
   margin: 0 0 0 15px;
@@ -765,6 +770,7 @@ body {
 }
 .footer__product-item {
   width: 265px;
+  margin: 9px auto 0;
 }
 
 .logo-img {
@@ -873,7 +879,8 @@ body {
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    margin-top: 60px;
+    margin: 60px 0 0;
+    text-align: start;
   }
   .footer__product-second {
     margin: 0 0 0 29px;
